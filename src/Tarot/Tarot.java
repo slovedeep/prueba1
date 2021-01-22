@@ -11,8 +11,6 @@ public class Tarot {
             birthYear = readValues.nextInt();
         } while (birthYear<=0 || birthYear>2002);
 
-        System.out.println("Hola Que tal??");
-
         do {
             System.out.println("Introdueix el mes de naixement (del 1 al 12): ");
             birthMonth = readValues.nextInt();
